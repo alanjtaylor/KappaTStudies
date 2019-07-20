@@ -35,7 +35,7 @@ If we run:
 
     python nominalSelection.py 
     
-It will compute the signal effiencies and background estimates for the nominal selection and calculate the purities. 
+It will compute the signal efficiencies and background estimates for the nominal selection and calculate the purities. 
 
 There is also a script that finds a new event selection, and can be run with (for example):
 
