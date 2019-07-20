@@ -41,15 +41,15 @@ There is also a script that finds a new event selection, and can be run with (fo
 
     python newSelection.py -p True -nlept 1 -njets 2 -scan True
 
-where p decides whether or not to give priority to tH or ttH categories, nlept is the number of leptons, njets is the maximum number of jets allowed in the event and scan decides whether to do a scan over the maximum pseudorapidity of a jet in the event.
+where p decides whether or not to give priority to tH or ttH categories, nlept is the number of leptons, njets is the maximum number of jets allowed in each event and scan decides whether to do a scan or not over the maximum pseudorapidity of a jet in each event.
  
- This script will create plots of the central jet multiplicity and the maximum pseudorapidity of a jet in the event. It will also compute the signal efficiencies and background estimates for a new selection (defined in the script) and calculate the purities for the new selection.
+This script will create plots of the central jet multiplicities and the maximum pseudorapidity of a jet in each event. It will also compute the signal efficiencies and background estimates for a new selection (defined in the script) and calculate the purities for the new selection.
  
  A maximum likelihood counting experiment fit can be run with (for example):
 
      python doFit.py -f kappa -s new
      
-where f decides whether to fit the kappa or the mu and s decides whether to use the new or nominal selection. If the fit is ran over kappa for both the new and the nominal selection, the likelihood scans can be compared with `cosmeticKappa.py`
+where f decides whether to fit the kappa or the mu and s decides whether to use the new or nominal selection. If the fit is ran over kappa for both the new and the nominal selection, the likelihood scans can be compared with `cosmeticKappa.py`.
  
  
  
