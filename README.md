@@ -1,5 +1,5 @@
 # KappaTStudies
-Some scripts for studying the sign of the coupling between the Higgs boson and top quark. 
+Some scripts for studying the sign of the coupling between the Higgs boson and the top quark. 
 
 ## Skim files
 
