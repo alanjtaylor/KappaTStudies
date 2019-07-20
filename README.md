@@ -14,7 +14,7 @@ This will run the skimFiles.py script over all data and MC samples. The skimFile
 
 where p is the process (can also be data15-18) and c is the MC campaign (can also be DS1-8)
 
-## Do analysis
+## Analysis
 
 On lxplus, it is necessary to do the following for the first time and in a separate terminal from the above:
 
