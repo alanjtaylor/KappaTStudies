@@ -8,7 +8,7 @@ To skim the files into small ntuples, suitable for analysis, do:
     source setup.sh
     . RunAll.sh
     
-This will run the skimFiles.py script over all data and MC samples. The skimFiles.py script can also be ran standalone over a single MC / data sample with the following:
+This will run the skimFiles.py script over all data and MC samples. The skimFiles.py script can also be ran standalone over a single MC / data sample with the following (for example):
 
     python skimFiles.py -p ggH -c mc16a
 
