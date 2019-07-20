@@ -1,6 +1,6 @@
 #!/bin/bash
 # skim the data
-echo 'Skimming all data and all MC, takes around 20mins or so...'
+echo 'Skimming all data and all MC, takes around 40mins or so...'
 for data in data15 data16 data17 data18; do
     for DS in DS1 DS2 DS3 DS4 DS5 DS6 DS7 DS8; do
 	python skimFiles.py -p ${data} -c ${DS}
