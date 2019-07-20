@@ -1,0 +1,95 @@
+# the luminosities currently recommended for the analysis
+
+mc16a_lumi: 36104.16
+mc16d_lumi: 43593.8
+mc16e_lumi: 58450.1
+
+EOSPrefix: root://eosatlas.cern.ch//eos/atlas/atlascerngroupdisk/phys-higgs/HSG1/MxAOD/h024/
+
+Files:
+  ggH:
+    mc16a: mc16a.PowhegPy8_NNLOPS_ggH125.MxAODDetailed.e5607_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.PowhegPy8_NNLOPS_ggH125.MxAODDetailed.e5607_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.PowhegPy8_NNLOPS_ggH125.MxAODDetailed.e5607_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_PowhegPy8_NNLOPS_ggH125_noDalitz_weighted
+  VBF:
+    mc16a: mc16a.PowhegPy8EG_NNPDF30_VBFH125.MxAODDetailed.e6970_s3126_r9364_p3705.h024.root
+    mc16d: mc16d.PowhegPy8EG_NNPDF30_VBFH125.MxAODDetailed.e6970_s3126_r10201_p3705.h024.root
+    mc16e: mc16e.PowhegPy8EG_NNPDF30_VBFH125.MxAODDetailed.e6970_e5984_s3126_r10724_r10726_p3714.h024.root
+    histogram: CutFlow_PowhegPy8EG_NNPDF30_VBFH125_noDalitz_weighted
+  WpH:
+    mc16a: mc16a.PowhegPy8EG_NNPDF30_VBFH125.MxAODDetailed.e6970_s3126_r9364_p3705.h024.root
+    mc16d: mc16d.PowhegPy8EG_NNPDF30_VBFH125.MxAODDetailed.e6970_s3126_r10201_p3705.h024.root
+    mc16e: mc16e.PowhegPy8EG_NNPDF30_VBFH125.MxAODDetailed.e6970_e5984_s3126_r10724_r10726_p3714.h024.root
+    histogram: CutFlow_PowhegPy8EG_NNPDF30_VBFH125_noDalitz_weighted
+  WmH:
+    mc16a: mc16a.PowhegPy8_WmH125J.MxAODDetailed.e5734_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.PowhegPy8_WmH125J.MxAODDetailed.e5734_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.PowhegPy8_WmH125J.MxAODDetailed.e5734_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_PowhegPy8_WmH125J_noDalitz_weighted
+  ZH:
+    mc16a: mc16a.PowhegPy8_ZH125J.MxAODDetailed.e5743_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.PowhegPy8_ZH125J.MxAODDetailed.e5743_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.PowhegPy8_ZH125J.MxAODDetailed.e5743_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_PowhegPy8_ZH125J_noDalitz_weighted
+  ggZH:
+    mc16a: mc16a.PowhegPy8_ggZH125.MxAODDetailed.e5762_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.PowhegPy8_ggZH125.MxAODDetailed.e5762_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.PowhegPy8_ggZH125.MxAODDetailed.e5762_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_PowhegPy8_ggZH125_noDalitz_weighted
+  ttH:
+    mc16a: mc16a.PowhegPy8_ttH125.MxAODDetailed.e6503_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.PowhegPy8_ttH125.MxAODDetailed.e6503_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.PowhegPy8_ttH125.MxAODDetailed.e6503_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_PowhegPy8_ttH125_noDalitz_weighted
+  bbH:
+    mc16a: mc16a.PowhegPy8_bbH125.MxAODDetailed.e6050_s3126_r9364_p3665.h024.root 
+    mc16d: mc16d.PowhegPy8_bbH125.MxAODDetailed.e6050_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.PowhegPy8_bbH125.MxAODDetailed.e6050_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_PowhegPy8_bbH125_noDalitz_weighted
+  tWH:
+    mc16a: mc16a.aMCnloHwpp_tWH125_yt_plus1.MxAODDetailed.e4394_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.aMCnloHwpp_tWH125_yt_plus1.MxAODDetailed.e4394_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.aMCnloHwpp_tWH125_yt_plus1.MxAODDetailed.e4394_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_aMCnloHwpp_tWH125_yt_plus1_noDalitz_weighted
+  tHjb:
+    mc16a: mc16a.aMCnloPy8_tHjb125_4fl.MxAODDetailed.e6982_s3126_r9364_p3665.h024.root
+    mc16d: mc16d.aMCnloPy8_tHjb125_4fl.MxAODDetailed.e6982_s3126_r10201_p3665.h024.root
+    mc16e: mc16e.aMCnloPy8_tHjb125_4fl.MxAODDetailed.e6982_s3126_r10724_p3665.h024.root
+    histogram: CutFlow_aMCnloPy8_tHjb125_4fl_noDalitz_weighted
+  data15:
+    DS1: data15_13TeV.periodAllYear_3219ipb.physics_Main.MxAOD.p3704.h024.root
+  data16:
+    DS1: data16_13TeV.DS1_4046ipb.physics_Main.MxAOD.p3704.h024.root
+    DS2: data16_13TeV.DS2_4290ipb.physics_Main.MxAOD.p3704.h024.root
+    DS3: data16_13TeV.DS3_4276ipb.physics_Main.MxAOD.p3704.h024.root
+    DS4: data16_13TeV.DS4_4236ipb.physics_Main.MxAOD.p3704.h024.root
+    DS5: data16_13TeV.DS5_4169ipb.physics_Main.MxAOD.p3704.h024.root
+    DS6: data16_13TeV.DS6_4353ipb.physics_Main.MxAOD.p3704.h024.root
+    DS7: data16_13TeV.DS7_4114ipb.physics_Main.MxAOD.p3704.h024.root
+    DS8: data16_13TeV.DS8_3481ipb.physics_Main.MxAOD.p3704.h024.root
+  data17:
+    DS1: data17_13TeV.DS1_7649ipb.physics_Main.MxAOD.p3704.h024.root
+    DS2: data17_13TeV.DS2_7484ipb.physics_Main.MxAOD.p3704.h024.root
+    DS3: data17_13TeV.DS3_7663ipb.physics_Main.MxAOD.p3704.h024.root
+    DS4: data17_13TeV.DS4_7443ipb.physics_Main.MxAOD.p3704.h024.root
+    DS5: data17_13TeV.DS5_7589ipb.physics_Main.MxAOD.p3704.h024.root
+    DS6: data17_13TeV.DS6_6479ipb.physics_Main.MxAOD.p3704.h024.root
+  data18:
+    DS1: data18_13TeV.DS1_8428ipb.physics_Main.MxAOD.p3704.h024.root
+    DS2: data18_13TeV.DS2_8340ipb.physics_Main.MxAOD.p3704.h024.root
+    DS3: data18_13TeV.DS3_8219ipb.physics_Main.MxAOD.p3704.h024.root
+    DS4: data18_13TeV.DS4_8043ipb.physics_Main.MxAOD.p3704.h024.root
+    DS5: data18_13TeV.DS5_8247ipb.physics_Main.MxAOD.p3704.h024.root
+    DS6: data18_13TeV.DS6_8471ipb.physics_Main.MxAOD.p3704.h024.root
+    DS7: data18_13TeV.DS7_8230ipb.physics_Main.MxAOD.p3704.h024.root
+    DS8: data18_13TeV.DS8_1960ipb.physics_Main.MxAOD.p3704.h024.root
+
+
+
+
+
+
+
+
+
